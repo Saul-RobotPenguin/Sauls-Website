@@ -1,0 +1,235 @@
+{
+  "basic_info": {
+    "description_header": "Hi there!",
+    "description": "👋 I'm Saul Calleja. A Web Developer who enjoys building interactive websites. While I'm not working on my own projects, I enjoy torturing myself with a toxic game of League of Legends or write my own poetry to reflect on certain aspects of the human life that are intriguing to me ",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects That I've Built And Worked On",
+      "skills": "Languages and Technologies I Worked With",
+      "experience": "My Tech Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Classic Calculator Website",
+      "startDate": "Personal Project",
+      "description": "The beginning of my coding journey, developed and designed a functional calculator website that can be used as a substitute as any other normal calculator (If you somehow find yourself accidentally uninstalling your calculator app within your computer and phone that is). This project not only taught me how to store users variables, show them on the screen, style a calculator but create functions that can run depending on the button pressed.",
+      "images": [
+        "images/portfolio/Calculator/calculator-proj1.jpg",
+        "images/portfolio/Calculator/calculator-proj2.jpg",
+        "images/portfolio/Calculator/calculator-proj3.jpg"
+      ],
+      "url": "https://fervent-curie-aeef7f.netlify.app/",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain colored",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain colored",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-javascript-plain colored",
+          "name": "Javascript"
+        }
+      ]
+    },
+    {
+      "title": "Mini Piano Player",
+      "startDate": "2021",
+      "description": "Another personal project of mine. One of the many instruments that I wanted to learn to play was the piano. Sadly I don't have any space in my apartment, errr, I mean my butler refuses to get one so I settled for programming one so that anyone could play a piano without the cost nor the need of breaking someones ankles when they refuse to give up their piano because its too heavy while everyone at Carnegie Hall is watching you two duke it out. This project taught me about onkeydown/onkeyup events, music notes, adding classes to give that piano key press look, then removing it when its no longer pressed, keycodes, and how hard it is to find good audio clips of piano sounds. I also wanted to include a 'music sheet' that allows anyone to just start jamming without embarrassing themselves in front of the audience at Carnegie hall. I really love Carnegie Hall.....  ",
+      "images": [
+        "images/portfolio/MiniPiano/piano-proj.jpg",
+        "images/portfolio/MiniPiano/piano-proj2.jpg",
+        "images/portfolio/MiniPiano/piano-proj3.jpg",
+        "images/portfolio/MiniPiano/piano-proj4.jpg"
+      ],
+      "url": "https://lucid-hermann-46d646.netlify.app/",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain colored",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain colored",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-javascript-plain colored",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-premierepro-plain colored",
+          "name": "Premiere Pro"
+        }
+      ]
+    },
+    {
+      "title": "Transcribe",
+      "startDate": "2021",
+      "description": "One of the first apps that I worked with a team at The Knowledge House, I had awesome teammates so staying up at night in the late hours with them over Zoom and breaking down emotionally saying 'Why isn't this working? It should work! It's all your fault Saul!!!' (Everyone including me was saying this). We decided to use 3 APIS, Microsoft Translating/Detect API Endpoints (for translating and detecting the language that the user typed in), Detect API (For detecting languages with an accuracy rating system) and REST Countries for information based on countries. We also decided to try a new responsiveness framework called Bulma. We each helped out one another, looking over code and making changes whenever it was needed. I worked at the backend stuff, testing endpoints, agonizing over CORS errors, and making sure everyone felt comfortable with what they needed to do. I occasionally helped with the styling and made sure everything looked okay. Nonetheless, I'm proud of our team and of what we accomplished! Let's go, Team Saul!!!",
+      "images": [
+        "images/portfolio/Transcribe/transcribe.jpg",
+        "images/portfolio/Transcribe/transcribe2.jpg",
+        "images/portfolio/Transcribe/transcribe3.jpg",
+        "images/portfolio/Transcribe/transcribe4.jpg"
+      ],
+      "url": "https://zealous-lichterman-8fb6b6.netlify.app/",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain colored",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain colored",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-javascript-plain colored",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-bulma-plain colored",
+          "name": "Bulma"
+        },
+        {
+          "class": "devicon-figma-plain colored",
+          "name": "Figma"
+        }
+      ]
+    },
+    {
+      "title": "ChatRoom Website",
+      "startDate": "2022",
+      "description": "A Chatting Room Website, I made this particularly because I was really interested in Socket.IO I have seen other projects implementing Socket.IO so I decided to give it a try. I used Socket IO to make it possible to send messages to anyone within the chatroom in real-time. (If anyone is there that is, you can still try it by opening another tab) I also used the Express framework for the server-side to make it easier, allowing me to store users' input and differentiate other users from the main user. I planned on adding a name functionality and room functionality in the future since right now everyone is huddling up in a single chatroom. Having separate rooms with a room id and a username would make it more personal and fun. I think... OH and don't worry the messages aren't saved! So type 'Saul is awesome' for me, please. ",
+      "images": [
+        "images/portfolio/ChatRoom/chatroom-proj.jpg",
+        "images/portfolio/ChatRoom/chatroom-proj2.jpg",
+        "images/portfolio/ChatRoom/chatroom-proj3.jpg",
+        "images/portfolio/ChatRoom/chatroom-proj4.jpg"
+      ],
+      "url": "https://sauls-chatroom-website.herokuapp.com/",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain colored",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain colored",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-javascript-plain colored",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-express-original colored",
+          "name": "ExpressJS"
+        },
+        {
+          "class": "devicon-socketio-original colored",
+          "name": "Socket.IO"
+        }
+      ]
+    },
+    {
+      "title": "Drawing Website",
+      "startDate": "2022",
+      "description": "A drawing website that I did because I wondered whether it was possible. I mean when you think about it, web pages are like blocks of texts and elements. How do you make a working game or a drawing app within a website??? Well, it's by the canvas tag. Using the canvas tag you can manipulate what occurs within it. While building this project I learned how to make strokes of colors depending on the color the user chooses and how to make an eraser functionality as well as even allowing the user to say their artwork. Overall I usually hate art because I suck at it but while building this project, I almost started to feel like a kid. Anyways I used javascript for the eraser, drawing, saving the canvas, and clearing it out while using some CSS and Bootstrap to make the website look overall nice. This website had a ton of bugs initially but I finally fine-tuned it. I mean I think there are no bugs.....",
+      "images": [
+        "images/portfolio/Drawing Website/drawing-proj.jpg",
+        "images/portfolio/Drawing Website/drawing-proj2.jpg",
+        "images/portfolio/Drawing Website/drawing-proj3.jpg",
+        "images/portfolio/Drawing Website/drawing-proj4.jpg"
+      ],
+      "url": "https://saul-robotpenguin.github.io/Drawing-Website/",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain colored",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain colored",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-javascript-plain colored",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-bootstrap-plain colored",
+          "name": "Bootstrap"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "The Knowledge House Bootcamp",
+      "title": "Full Stack Developer ",
+      "years": "10.2019 - Present",
+      "mainTech": ["MERN Stack"],
+      "technologies": [
+        "HTML 5",
+        "CSS 3",
+        "JavaScript",
+        "Bootstrap",
+        "Bulma",
+        "REST API",
+        "MongoDB",
+        "ExpressJS",
+        "React",
+        "NodeJS"
+      ]
+    },
+    {
+      "company": "Infosys",
+      "title": "PHP Web Developer",
+      "years": "01.2018 - 09.2019",
+      "mainTech": ["LAMP Stack"],
+      "technologies": [
+        "HTML 5",
+        "CSS 3",
+        "Javascript",
+        "Linux",
+        "Apache",
+        "MySQL",
+        "PHP",
+        "XAMPP",
+        "CodeIgniter",
+        "Bootstrap",
+        "PHPMailer"
+      ]
+    },
+    {
+      "company": "Infosys",
+      "title": "Application Support Specialist",
+      "years": "02.2021 - 07.2021",
+      "mainTech": ["Java"],
+      "technologies": [
+        "Java",
+        "Oracle WebLogic",
+        "Health Monitoring",
+        "MySQL",
+        "Shell Scripting",
+        "Administration Middleware Tasks",
+        "Tomcat Administration"
+      ]
+    },
+    {
+      "company": "Woz U",
+      "title": "Application Support Intensive",
+      "years": "01/2021 - 03/2021",
+      "mainTech": ["Java"],
+      "technologies": [
+        "Java",
+        " Oracle WebLogic",
+        "MySQL",
+        "Unix/Linux",
+        "WebSphere",
+        "Tomcat Administration"
+      ]
+    }
+  ]
+}
