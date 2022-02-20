@@ -12,7 +12,7 @@
   "projects": [
     {
       "title": "Classic Calculator Website",
-      "startDate": "Personal Project",
+      "startDate": "2021",
       "description": "The beginning of my coding journey, developed and designed a functional calculator website that can be used as a substitute as any other normal calculator (If you somehow find yourself accidentally uninstalling your calculator app within your computer and phone that is). This project not only taught me how to store users variables, show them on the screen, style a calculator but create functions that can run depending on the button pressed.",
       "images": [
         "images/portfolio/Calculator/calculator-proj1.jpg",
