@@ -162,6 +162,32 @@
           "name": "Bootstrap"
         }
       ]
+    },
+    {
+      "title": "Reproductor De Música",
+      "startDate": "2022",
+      "description": "Un proyecto que construí para mejorar mis habilidades en ReactJS, construí este proyecto porque a menudo me preguntan qué tipo de música me gusta, mi respuesta suele ser \"Es complicado, pero me gustan los tambores fuertes y los pitidos fuertes\", que es seguido por personas que me miraban como si fuera un robot escondido en secreto, tratando de mezclarse con la raza humana y que probablemente deberían informarme a las autoridades antes de que regrese a mi nave espacial y regrese con un ejército de guerreros espaciales alienígenas. Entonces, para evitar otra noche de ser encerrado por el FBI, construí este sitio web para poder ser ese tipo que dice \"En realidad, ¡puedes ir a mi sitio web para averiguarlo! Aquí está el enlace\" en las fiestas. Bueno, continuando, construí este sitio web usando ReactJS, creando un componente PlayerDetails que muestra la portada de la canción, el título de la canción, el artista de la canción y la información de la siguiente canción. Un componente PlayerControls que maneja los íconos en el reproductor, de modo que si el usuario hace clic en reproducir => muestra un ícono de reproducción, ya sea como si el usuario presiona pausa => muestra un ícono de pausa. Para el, podría haber usado la etiqueta de audio y permitir una opción de controles, esta sería la salida perezosa ya que ya usa las funcionalidades integradas de HTML, así que decidí aplicar ingeniería inversa por mi cuenta, creando funciones que hacen los botones acciones correspondientes , también lo hice para que cuando termine una canción, la siguiente canción se reproduzca automáticamente. Cada canción está dentro de una matriz y cada índice se repite para la siguiente canción al llegar a la última canción, comienza desde el principio. En general, fue divertido, usé Font Awesome para los íconos, busqué en Google para las versiones de las canciones e hice bolas en el fondo que se movían al azar para darle ese aspecto genial.",
+      "images": [
+        "images/portfolio/Music Player/musicplayer-proj.jpg",
+        "images/portfolio/Music Player/musicplayer-proj2.jpg",
+        "images/portfolio/Music Player/musicplayer-proj3.jpg",
+        "images/portfolio/Music Player/musicplayer-proj4.jpg"
+      ],
+      "url": "https://sauls-music-player.netlify.app/",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain colored",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain colored",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-react-plain colored",
+          "name": "React"
+        }
+      ]
     }
   ],
   "experience": [

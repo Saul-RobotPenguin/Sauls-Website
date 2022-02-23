@@ -38,7 +38,7 @@
     {
       "title": "Mini Piano Player",
       "startDate": "2021",
-      "description": "Another personal project of mine. One of the many instruments that I wanted to learn to play was the piano. Sadly I don't have any space in my apartment, errr, I mean my butler refuses to get one so I settled for programming one so that anyone could play a piano without the cost nor the need of breaking someones ankles when they refuse to give up their piano because its too heavy while everyone at Carnegie Hall is watching you two duke it out. This project taught me about onkeydown/onkeyup events, music notes, adding classes to give that piano key press look, then removing it when its no longer pressed, keycodes, and how hard it is to find good audio clips of piano sounds. I also wanted to include a 'music sheet' that allows anyone to just start jamming without embarrassing themselves in front of the audience at Carnegie hall. I really love Carnegie Hall.....  ",
+      "description": "Another personal project of mine. One of the many instruments that I wanted to learn to play was the piano. Sadly I don't have any space in my apartment, errr, I mean my butler refuses to get one so I settled for programming one so that anyone could play a piano without the cost nor the need of breaking someones ankles when they refuse to give up their piano because its too heavy while everyone at Carnegie Hall is watching you two duke it out. This project taught me about onkeydown/onkeyup events, music notes, adding classes to give that piano key press look, then removing it when its no longer pressed, keycodes, and how hard it is to find good audio clips of piano sounds. I also wanted to include a \"music sheet\"  that allows anyone to just start jamming without embarrassing themselves in front of the audience at Carnegie hall. I really love Carnegie Hall.....  ",
       "images": [
         "images/portfolio/MiniPiano/piano-proj.jpg",
         "images/portfolio/MiniPiano/piano-proj2.jpg",
@@ -68,7 +68,7 @@
     {
       "title": "Transcribe",
       "startDate": "2021",
-      "description": "One of the first apps that I worked with a team at The Knowledge House, I had awesome teammates so staying up at night in the late hours with them over Zoom and breaking down emotionally saying 'Why isn't this working? It should work! It's all your fault Saul!!!' (Everyone including me was saying this). We decided to use 3 APIS, Microsoft Translating/Detect API Endpoints (for translating and detecting the language that the user typed in), Detect API (For detecting languages with an accuracy rating system) and REST Countries for information based on countries. We also decided to try a new responsiveness framework called Bulma. We each helped out one another, looking over code and making changes whenever it was needed. I worked at the backend stuff, testing endpoints, agonizing over CORS errors, and making sure everyone felt comfortable with what they needed to do. I occasionally helped with the styling and made sure everything looked okay. Nonetheless, I'm proud of our team and of what we accomplished! Let's go, Team Saul!!!",
+      "description": "One of the first apps that I worked with a team at The Knowledge House, I had awesome teammates so staying up at night in the late hours with them over Zoom and breaking down emotionally saying \"Why isn't this working? It should work! It's all your fault Saul!!!\" (Everyone including me was saying this). We decided to use 3 APIS, Microsoft Translating/Detect API Endpoints (for translating and detecting the language that the user typed in), Detect API (For detecting languages with an accuracy rating system) and REST Countries for information based on countries. We also decided to try a new responsiveness framework called Bulma. We each helped out one another, looking over code and making changes whenever it was needed. I worked at the backend stuff, testing endpoints, agonizing over CORS errors, and making sure everyone felt comfortable with what they needed to do. I occasionally helped with the styling and made sure everything looked okay. Nonetheless, I'm proud of our team and of what we accomplished! Let's go, Team Saul!!!",
       "images": [
         "images/portfolio/Transcribe/transcribe.jpg",
         "images/portfolio/Transcribe/transcribe2.jpg",
@@ -102,7 +102,7 @@
     {
       "title": "ChatRoom Website",
       "startDate": "2022",
-      "description": "A Chatting Room Website, I made this particularly because I was really interested in Socket.IO I have seen other projects implementing Socket.IO so I decided to give it a try. I used Socket IO to make it possible to send messages to anyone within the chatroom in real-time. (If anyone is there that is, you can still try it by opening another tab) I also used the Express framework for the server-side to make it easier, allowing me to store users' input and differentiate other users from the main user. I planned on adding a name functionality and room functionality in the future since right now everyone is huddling up in a single chatroom. Having separate rooms with a room id and a username would make it more personal and fun. I think... OH and don't worry the messages aren't saved! So type 'Saul is awesome' for me, please. ",
+      "description": "A Chatting Room Website, I made this particularly because I was really interested in Socket.IO I have seen other projects implementing Socket.IO so I decided to give it a try. I used Socket IO to make it possible to send messages to anyone within the chatroom in real-time. (If anyone is there that is, you can still try it by opening another tab) I also used the Express framework for the server-side to make it easier, allowing me to store users' input and differentiate other users from the main user. I planned on adding a name functionality and room functionality in the future since right now everyone is huddling up in a single chatroom. Having separate rooms with a room id and a username would make it more personal and fun. I think... OH and don't worry the messages aren't saved! So type \"Saul is Awesome!\" for me, please. ",
       "images": [
         "images/portfolio/ChatRoom/chatroom-proj.jpg",
         "images/portfolio/ChatRoom/chatroom-proj2.jpg",
@@ -160,6 +160,32 @@
         {
           "class": "devicon-bootstrap-plain colored",
           "name": "Bootstrap"
+        }
+      ]
+    },
+    {
+      "title": "Music Player",
+      "startDate": "2022",
+      "description": "A project that I built to further my skills in ReactJS, I built this project because I often get asked what type of music I like, my answer is usually \" It's complicated but I like the loud drums and the loud beeps\" which is followed by people looking at me like I was a robot hiding in secret, attempting to blend in with the human race and that they should probably report me to the authorities before I get back onto my spaceship and return with an army of alien space warriors. So to save another night of getting locked up by the FBI, I built this website so that I could be that guy who says \"Actually, you can go to my website to find out! Here's the link\" at parties. Well, moving on, I built this website using ReactJS, building a PlayerDetails component that shows the Song Cover, Song Title, Songs Artist, and the information of the following next song. A PlayerControls Component that handles the icons on the player so if the user clicks play => shows a play icon whether as if the user hits pause => show a pause icon. For the, I could have used the audio tag and allowed a controls option, this would be the lazy way out since it already uses the HTML built functionalities so I decided to reverse engineer it on my own, creating functions that do the buttons corresponding actions, I also made it so that when a song finishes, the following song automatically plays. Each song is inside an array and each index is iterated for the next song upon reaching the last song, it starts from the beginning. Overall it was fun, I used Font Awesome for the icons, google for the song covers, and made balls in the background that move randomly to give it that cool look. ",
+      "images": [
+        "images/portfolio/Music Player/musicplayer-proj.jpg",
+        "images/portfolio/Music Player/musicplayer-proj2.jpg",
+        "images/portfolio/Music Player/musicplayer-proj3.jpg",
+        "images/portfolio/Music Player/musicplayer-proj4.jpg"
+      ],
+      "url": "https://sauls-music-player.netlify.app/",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain colored",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain colored",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-react-plain colored",
+          "name": "React"
         }
       ]
     }
