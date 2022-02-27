@@ -6,7 +6,14 @@
       "about": "About me",
       "projects": "Projects That I've Built And Worked On",
       "skills": "Languages and Technologies I Worked With",
-      "experience": "My Tech Experience"
+      "experience": "My Tech Experience",
+      "contact": "Contact Me",
+      "name_placeholder": "Enter Your Name Here",
+      "email_placeholder": "Enter Your Email Here",
+      "message_placeholder": "Enter Your Message Here",
+      "email_template": "template_haniozh",
+      "Success": "Your Email Was Sent Successfully! Thank You, I'll Get In Touch With You Soon!",
+      "Error": "An Error Has Occurred And Unfortunately, Your Email Was Not Sent, Please Try Again Later!"
     }
   },
   "projects": [

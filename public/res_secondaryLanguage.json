@@ -6,7 +6,14 @@
       "about": "Sobre Yo",
       "projects": "Proyectos Que He Construido Y Trabajado",
       "skills": "Idiomas Y Tecnologías Con Los Que Trabajé",
-      "experience": "Mi Experiencia Tecnológica"
+      "experience": "Mi Experiencia Tecnológica",
+      "contact": "Contacta Me",
+      "name_placeholder": "Pon Tu Nombre Aqui",
+      "email_placeholder": "Pon Tu Correo Electrónico Aquí",
+      "message_placeholder": "Pon Tu Mensaje Aquí",
+      "email_template": "template_4m8fpvh",
+      "Success": "¡Tu Correo Electrónico Fue Enviado Con Exito! ¡Gracias, Me Pondré En Contacto Con Usted Pronto!",
+      "Error": "Ha Ocurrido un Error Y, Lamentablemente, Su Correo Electrónico No Se Envió. ¡Inténtelo De Nuevo Más Tarde!"
     }
   },
   "projects": [
