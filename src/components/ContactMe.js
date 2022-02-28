@@ -18,22 +18,25 @@ class ContactMe extends Component {
 
     return (
       <section id="contact-form">
-        <div className="col-md-12">
-          <div className="pb-5 py-5">
-            <h1 className="section-title" style={{ color: "black" }}>
-              <span>{sectionName}</span>
-            </h1>
-            {/* ref={form} onSubmit={sendEmail} */}
-            <Email
-              namePlaceholder={namePlaceholder}
-              emailPlaceholder={emailPlaceholder}
-              messagePlaceholder={messagePlaceholder}
-              emailTemplate={emailTemplate}
-              success={success}
-              error={error}
-            />
-          </div>
+        <div className="col-md-12 pb-5">
+          {/* <div className="pb-5 py-5"> */}
+          <h1 className="section-title" style={{ color: "black" }}>
+            <span className="text-black" style={{ textAlign: "center" }}>
+              {sectionName}
+            </span>
+          </h1>
+
+          {/* ref={form} onSubmit={sendEmail} */}
+          <Email
+            namePlaceholder={namePlaceholder}
+            emailPlaceholder={emailPlaceholder}
+            messagePlaceholder={messagePlaceholder}
+            emailTemplate={emailTemplate}
+            success={success}
+            error={error}
+          />
         </div>
+        {/* </div> */}
       </section>
     );
   }

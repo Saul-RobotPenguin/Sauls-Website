@@ -432,12 +432,20 @@ footer a:focus {
 }
 
 #contact-form {
+  background: white;
   body {
     background-color: white;
   }
+  h1 span {
+    font: 18px/24px "opensans-bold", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: black;
+    text-align: center;
+  }
   form {
     max-width: 420px;
-    margin: 15px auto;
+    margin: 5px auto;
   }
 
   .feedback-input {

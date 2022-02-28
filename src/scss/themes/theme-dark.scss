@@ -110,9 +110,16 @@ body[data-theme="dark"] {
     body {
       background-color: #7f7f7f;
     }
+    h1 span {
+      font: 18px/24px "opensans-bold", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: white;
+      text-align: center;
+    }
     form {
       max-width: 420px;
-      margin: 50px auto;
+      margin: 5px auto;
     }
     ::placeholder {
       color: white;

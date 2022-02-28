@@ -7,7 +7,7 @@
       "projects": "Proyectos Que He Construido Y Trabajado",
       "skills": "Idiomas Y Tecnologías Con Los Que Trabajé",
       "experience": "Mi Experiencia Tecnológica",
-      "contact": "Contacta Me",
+      "contact": "Contáctame!",
       "name_placeholder": "Pon Tu Nombre Aqui",
       "email_placeholder": "Pon Tu Correo Electrónico Aquí",
       "message_placeholder": "Pon Tu Mensaje Aquí",
@@ -26,7 +26,7 @@
         "images/portfolio/Calculator/calculator-proj2.jpg",
         "images/portfolio/Calculator/calculator-proj3.jpg"
       ],
-      "url": "https://fervent-curie-aeef7f.netlify.app/",
+      "url": "https://sauls-calculator-app.netlify.app/",
       "technologies": [
         {
           "class": "devicon-html5-plain colored",
@@ -52,7 +52,7 @@
         "images/portfolio/MiniPiano/piano-proj3.jpg",
         "images/portfolio/MiniPiano/piano-proj4.jpg"
       ],
-      "url": "https://lucid-hermann-46d646.netlify.app/",
+      "url": "https://sauls-piano-app.netlify.app/",
       "technologies": [
         {
           "class": "devicon-html5-plain colored",
