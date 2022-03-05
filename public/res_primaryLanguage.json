@@ -195,6 +195,39 @@
           "name": "React"
         }
       ]
+    },
+    {
+      "title": "Travel Companion",
+      "startDate": "2022",
+      "description": "Another Project I build using the Travel Advisor API, Google Maps Javascript API, and Places API, this one was built using ReactJS and fetching data from the API using Axios. This would show Hotels, Restaurants and Attractions near the user by taking their location into account, querying through them depending on ratings while also showing any certificates that the restaurant, hotel or attraction might have obtained. I also used Material UI Icons to style the website and Tailwind CSS to make the cards and map more responsive. Essentially this was a project that I wanted to use to expose me with Google Apis since I heard that they were notoriously difficult to work with due to the confusing wording of their documentation, making them very difficult for new developers to work with them. I also style the map using a site called Snazzymaps to make it look more personal rather than keep the old dull map style that was defaulted. Either way, another fun project that helped me further improve my skills as a web developer. Also I limited the amount of API calls that you can make on the site in order to not get an unbelievable charged on my account from Google. Maybe I'll get rid of that limit when I win the lottery.... ",
+      "images": [
+        "images/portfolio/TravelCompanion/travel-proj1.jpg",
+        "images/portfolio/TravelCompanion/travel-proj2.jpg",
+        "images/portfolio/TravelCompanion/travel-proj3.jpg"
+      ],
+      "url": "https://sauls-travel-companion.netlify.app/",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain colored",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain colored",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-react-plain colored",
+          "name": "React"
+        },
+        {
+          "class": "devicon-materialui-plain colored",
+          "name": "Material UI"
+        },
+        {
+          "class": "devicon-tailwindcss-plain colored",
+          "name": "Tailwind.css"
+        }
+      ]
     }
   ],
   "experience": [

@@ -90,6 +90,7 @@ const Email = (props) => {
         value={messageInput}
         onChange={handleMessageChange}
       />
+
       <input type="submit" value="Send" />
     </form>
   );

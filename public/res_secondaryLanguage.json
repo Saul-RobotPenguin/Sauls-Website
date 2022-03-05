@@ -8,9 +8,9 @@
       "skills": "Idiomas Y Tecnologías Con Los Que Trabajé",
       "experience": "Mi Experiencia Tecnológica",
       "contact": "Contáctame",
-      "name_placeholder": "Pon Tu Nombre Aqui",
-      "email_placeholder": "Pon Tu Correo Electrónico Aquí",
-      "message_placeholder": "Pon Tu Mensaje Aquí",
+      "name_placeholder": "Pon Tu Nombre ",
+      "email_placeholder": "Pon Tu Correo Electrónico ",
+      "message_placeholder": "Pon Tu Mensaje",
       "email_template": "template_4m8fpvh",
       "Success": "¡Tu Correo Electrónico Fue Enviado Con Exito! ¡Gracias, Me Pondré En Contacto Con Usted Pronto!",
       "Error": "Ha Ocurrido un Error Y, Lamentablemente, Su Correo Electrónico No Se Envió. ¡Inténtelo De Nuevo Más Tarde!"
@@ -193,6 +193,39 @@
         {
           "class": "devicon-react-plain colored",
           "name": "React"
+        }
+      ]
+    },
+    {
+      "title": "Compañero De Viaje",
+      "startDate": "2022",
+      "description": "Otro proyecto que construí usando la API de Travel Advisor, la API de Javascript de Google Maps y la API de Places, este fue construido usando ReactJS y obteniendo datos de la API usando Axios. Esto mostraría hoteles, restaurantes y atracciones cerca del usuario teniendo en cuenta su ubicación, consultando a través de ellos según las calificaciones y mostrando también los certificados que el restaurante, hotel o atracción podría haber obtenido. También utilicé iconos de Material UI para diseñar el sitio web y Tailwind CSS para hacer que las tarjetas y el mapa respondieran mejor. Esencialmente, este era un proyecto que quería usar para exponerme con Google Apis ya que escuché que era notoriamente difícil trabajar con ellos debido a la redacción confusa de su documentación, lo que dificultaba mucho que los nuevos desarrolladores trabajaran con ellos. También diseño el mapa usando un sitio llamado Snazzymaps para que se vea más personal en lugar de mantener el viejo estilo de mapa aburrido que estaba predeterminado. De cualquier manera, otro proyecto divertido que me ayudó a mejorar aún más mis habilidades como desarrollador web. También limité la cantidad de llamadas a la API que puede realizar en el sitio para que Google no realice un cargo increíble en mi cuenta. Tal vez me deshaga de ese límite cuando gane la lotería....",
+      "images": [
+        "images/portfolio/TravelCompanion/travel-proj1.jpg",
+        "images/portfolio/TravelCompanion/travel-proj2.jpg",
+        "images/portfolio/TravelCompanion/travel-proj3.jpg"
+      ],
+      "url": "https://sauls-travel-companion.netlify.app/",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain colored",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain colored",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-react-plain colored",
+          "name": "React"
+        },
+        {
+          "class": "devicon-materialui-plain colored",
+          "name": "Material UI"
+        },
+        {
+          "class": "devicon-tailwindcss-plain colored",
+          "name": "Tailwind.css"
         }
       ]
     }
