@@ -228,6 +228,44 @@
           "name": "Tailwind.css"
         }
       ]
+    },
+    {
+      "title": "Café Poesía",
+      "startDate": "2022",
+      "description": "En un proyecto de ReactJS que construí para la Fase dos durante mi tiempo en TKH, se me pidió que creara un sitio web que manejara tres llamadas a la API y al mismo tiempo se diseñara y codificara usando la Biblioteca React, similar a nuestro Proyecto de la Fase 1, pero esta vez estábamos desafiados a trabajar solos. Hice un sitio web de poesía porque escribo poesía (aunque no tanto como ahora durante el tiempo que escribo esto) durante mi tiempo libre y es algo que me ayuda a entenderme un poco mejor. Entonces, para este proyecto, usé ReactJS para hacer los componentes en el sitio web y usé TailWind CSS para estilizar el sitio web, React Router para la navegación a lo largo de la página de búsqueda, la página aleatoria y la página de inicio, Font Awesome para los íconos como el Íconos de café, cambio de tema para el modo claro y el modo oscuro o, en este caso, (modo capuchino y modo moca) para darle al usuario algún tipo de personalización, EmailJS para la opción de que el usuario se envíe a sí mismo un poema que encontraron en el sitio web para su custodia y DaisyUI para una configuración más sencilla de los componentes de Tailwind. Para este proyecto, también quería experimentar el trabajo con almacenamiento local, por lo que agregué una funcionalidad en la que podemos guardar la dirección de correo electrónico de los usuarios si marcaron la casilla de verificación Recordarme. Logré hacerlo funcionar, esto es lo que la mayoría de los sitios web usan para mejorar la experiencia del usuario en lugar de hacerlo de manera repetitiva, pero si desea que la página web ya no recuerde su correo electrónico, simplemente elimine las cookies del sitio.",
+      "images": [
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj1.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj2.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj3.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj4.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj5.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj6.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj7.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj8.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj9.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj10.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj11.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj12.jpg"
+      ],
+      "url": "https://poetry-cafe.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain colored",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain colored",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-react-plain colored",
+          "name": "React"
+        },
+        {
+          "class": "devicon-tailwindcss-plain colored",
+          "name": "Tailwind.css"
+        }
+      ]
     }
   ],
   "experience": [

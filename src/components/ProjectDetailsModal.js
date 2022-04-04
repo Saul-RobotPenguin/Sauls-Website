@@ -19,7 +19,10 @@ class ProjectDetailsModal extends Component {
               <span>
                 <div className="text-center">
                   <i className={icons.class} style={{ fontSize: "300%" }}>
-                    <p className="text-center" style={{ fontSize: "30%" }}>
+                    <p
+                      className="text-center text-monospace"
+                      style={{ fontSize: "30%" }}
+                    >
                       {icons.name}
                     </p>
                   </i>
