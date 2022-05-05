@@ -107,7 +107,7 @@
       ]
     },
     {
-      "title": "Sitio Web De La Sala De Chat",
+      "title": "Chatty",
       "startDate": "2022",
       "description": "Un sitio web de sala de chat, hice esto particularmente porque estaba realmente interesado en Socket.IO. He visto otros proyectos que implementan Socket.IO, así que decidí probarlo. Usé Socket IO para poder enviar mensajes a cualquiera. dentro de la sala de chat en tiempo real (si hay alguien allí, aún puede intentarlo abriendo otra pestaña) También usé el marco Express para el lado del servidor para hacerlo más fácil, permitiéndome almacenar la entrada de los usuarios y diferenciar a otros usuarios del usuario principal. Planeé agregar una funcionalidad de nombre y una funcionalidad de sala en el futuro, ya que en este momento todos se están reuniendo en una sola sala de chat. Tener salas separadas con una identificación de sala y un nombre de usuario lo haría más personal y divertido. Creo que... OH, y no te preocupes, los mensajes no se guardan, así que escribe 'Saul es increíble' para mí, por favor.",
       "images": [
@@ -116,7 +116,7 @@
         "images/portfolio/ChatRoom/chatroom-proj3.jpg",
         "images/portfolio/ChatRoom/chatroom-proj4.jpg"
       ],
-      "url": "https://sauls-chatroom-website.herokuapp.com/",
+      "url": "https://sauls-chatty-website.herokuapp.com/",
       "technologies": [
         {
           "class": "devicon-html5-plain colored",
@@ -141,7 +141,7 @@
       ]
     },
     {
-      "title": "Sitio Web De Dibujo",
+      "title": "Drawer Maker",
       "startDate": "2022",
       "description": "Un sitio web de dibujo que hice porque me preguntaba si era posible. Quiero decir, cuando lo piensas, las páginas web son como bloques de textos y elementos. ¿Cómo se crea un juego de trabajo o una aplicación de dibujo dentro de un sitio web? Bueno, es por la etiqueta del lienzo. Usando la etiqueta del lienzo, puede manipular lo que ocurre dentro de ella. Mientras construía este proyecto, aprendí a hacer trazos de colores según el color que el usuario elija y cómo hacer una función de borrador, además de permitir que el usuario diga su obra de arte. En general, generalmente odio el arte porque apesto en él, pero mientras construía este proyecto, casi comencé a sentirme como un niño. De todos modos, usé javascript para el borrador, dibujé, guardé el lienzo y lo limpié mientras usaba CSS y Bootstrap para que el sitio web se vea bien en general. Este sitio web tenía un montón de errores al principio, pero finalmente lo puse a punto. Quiero decir, creo que no hay errores...",
       "images": [
@@ -150,7 +150,7 @@
         "images/portfolio/Drawing Website/drawing-proj3.jpg",
         "images/portfolio/Drawing Website/drawing-proj4.jpg"
       ],
-      "url": "https://saul-robotpenguin.github.io/Drawing-Website/",
+      "url": "https://saul-robotpenguin.github.io/Drawer-Maker/",
       "technologies": [
         {
           "class": "devicon-html5-plain colored",
