@@ -18,15 +18,69 @@
   },
   "projects": [
     {
-      "title": "Classic Calculator Website",
-      "startDate": "2021",
-      "description": "The beginning of my coding journey, developed and designed a functional calculator website that can be used as a substitute as any other normal calculator (If you somehow find yourself accidentally uninstalling your calculator app within your computer and phone that is). This project not only taught me how to store users variables, show them on the screen, style a calculator but create functions that can run depending on the button pressed.",
+      "title": "ShortenMyURL",
+      "startDate": "2022",
+      "description": "So you have ever taken a look at something and thought \"That's something that can be shortened\"....       And no, I'm not talking about student debt! (Even though I'm pretty sure we all wished our debt just vanished) I'm talking about links that are so wordy without a reason, why should that ever happen??  So I decided to develop my own URL Shortener called \"ShortenMyURL\". I built this website using EJS, although I couldn't find a suitable icon for EJS on Devicon so I decided to put a Handlebars Icon as a substitute since they both do the same thing except EJS is more widely preferred, EJS is essentially a template builder that allows you to build HTML with Plain Javascript, in this regard, it's very similar to ReactJS, however, ReactJS allows for components to speak to each other but since this is just a URL Shortener I thought that using ReactJS would be overkill and unnecessary. For the databases, I'm using MongoDB, an alternative to SQL that uses NoSQL. It's simple and easier to use in my opinion since there won't be a need for data relationships, which is an aspect that would make SQL more preferred if you were pursuing this. I also used Express.js for the backend since we're using a server that can take a users input and store it within our database or when the user navigates to the shortened URL they are then led to our website for a brief second, which our website checks their shorten link and sees if it exists if it does then it redirects it to the full-length link that it was given initially by the user, for this to work, a server is needed and Express makes it easier to set routes. Overall the project was interesting, the major challenge was getting this website to be hosted. I usually use Netlify and unfortunately, Netlify does static pages however you'll have to make a netlify.toml file that can run functions which would then allow you to make the static website imitate a server. Didn't get it to work so I decided to host it on Heroku which was easier since Heroku is more built to handle applications with servers",
       "images": [
-        "images/portfolio/Calculator/calculator-proj1.jpg",
-        "images/portfolio/Calculator/calculator-proj2.jpg",
-        "images/portfolio/Calculator/calculator-proj3.jpg"
+        "images/portfolio/ShortenMyURL/shorten-my-url-proj1.jpg",
+        "images/portfolio/ShortenMyURL/shorten-my-url-proj2.jpg",
+        "images/portfolio/ShortenMyURL/shorten-my-url-proj3.jpg",
+        "images/portfolio/ShortenMyURL/shorten-my-url-proj4.jpg",
+        "images/portfolio/ShortenMyURL/shorten-my-url-proj5.jpg"
       ],
-      "url": "https://sauls-calculator-app.netlify.app/",
+      "url": "https://sauls-shorten-my-url.herokuapp.com/",
+      "github_url": "https://github.com/Saul-RobotPenguin/ShortenMyURL",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain colored",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-handlebars-plain colored",
+          "name": "EJS"
+        },
+        {
+          "class": "devicon-css3-plain colored",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-javascript-plain colored",
+          "name": "Javascript"
+        },
+        {
+          "class": "devicon-mongodb-plain colored",
+          "name": "MongoDB"
+        },
+        {
+          "class": "devicon-express-original colored",
+          "name": "Express.js"
+        },
+        {
+          "class": "devicon-heroku-original colored",
+          "name": "Heroku"
+        }
+      ]
+    },
+    {
+      "title": "Poetry Cafe",
+      "startDate": "2022",
+      "description": "In a ReactJS Project that I built for Phase Two during my time at TKH, I was required to make a website that handles three API calls while also being styled and coded using the React Library, similar to our Phase 1 Project but this time we were challenged to work by ourselves. I did a Poetry Website because I write poetry (Though not as much as now during the time of this writing) during my free time and it's something that helps me understand myself a bit better. So for this project, I used ReactJS to make the components on the Website and I used TailWind CSS to stylize the website, React Router for the navigation throughout the Search Page, Random Page, and Home Page,  Font Awesome for the Icons such as the Cafe Icons, Theme-Change for the Light-Mode and Dark-Mode or in this case (Cappuccino-Mode and Mocha-Mode) to give the user some sort of personalization, EmailJS for the option for the user to send themselves a poem that they found on the website for safekeeping and DaisyUI for easier configuration of Tailwind Components. For this project, I also wanted to experience working with Local Storage, so I added a functionality where we can save the users email address if they checked the remember me checkbox. I managed to get it working, this is what most websites use in order to improve user experience rather then doing it repetitively but if you want your email to no longer be remembered by the webpage then just delete your cookies form the site.",
+      "images": [
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj1.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj2.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj3.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj4.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj5.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj6.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj7.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj8.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj9.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj10.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj11.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj12.jpg"
+      ],
+      "url": "https://poetry-cafe.vercel.app/",
+      "github_url": "https://github.com/Saul-RobotPenguin/Poetry-Cafe",
       "technologies": [
         {
           "class": "devicon-html5-plain colored",
@@ -37,22 +91,89 @@
           "name": "CSS3"
         },
         {
-          "class": "devicon-javascript-plain colored",
-          "name": "Javascript"
+          "class": "devicon-react-plain colored",
+          "name": "React"
+        },
+        {
+          "class": "devicon-tailwindcss-plain colored",
+          "name": "Tailwind.css"
         }
       ]
     },
     {
-      "title": "Mini Piano Player",
-      "startDate": "2021",
-      "description": "Another personal project of mine. One of the many instruments that I wanted to learn to play was the piano. Sadly I don't have any space in my apartment, errr, I mean my butler refuses to get one so I settled for programming one so that anyone could play a piano without the cost nor the need of breaking someones ankles when they refuse to give up their piano because its too heavy while everyone at Carnegie Hall is watching you two duke it out. This project taught me about onkeydown/onkeyup events, music notes, adding classes to give that piano key press look, then removing it when its no longer pressed, keycodes, and how hard it is to find good audio clips of piano sounds. I also wanted to include a \"music sheet\"  that allows anyone to just start jamming without embarrassing themselves in front of the audience at Carnegie hall. I really love Carnegie Hall.....  ",
+      "title": "Travel Companion",
+      "startDate": "2022",
+      "description": "Another Project I build using the Travel Advisor API, Google Maps Javascript API, and Places API, this one was built using ReactJS and fetching data from the API using Axios. This would show Hotels, Restaurants and Attractions near the user by taking their location into account, querying through them depending on ratings while also showing any certificates that the restaurant, hotel or attraction might have obtained. I also used Material UI Icons to style the website and Tailwind CSS to make the cards and map more responsive. Essentially this was a project that I wanted to use to expose me with Google Apis since I heard that they were notoriously difficult to work with due to the confusing wording of their documentation, making them very difficult for new developers to work with them. I also style the map using a site called Snazzymaps to make it look more personal rather than keep the old dull map style that was defaulted. Either way, another fun project that helped me further improve my skills as a web developer. Also I limited the amount of API calls that you can make on the site in order to not get an unbelievable charged on my account from Google. Maybe I'll get rid of that limit when I win the lottery.... ",
       "images": [
-        "images/portfolio/MiniPiano/piano-proj.jpg",
-        "images/portfolio/MiniPiano/piano-proj2.jpg",
-        "images/portfolio/MiniPiano/piano-proj3.jpg",
-        "images/portfolio/MiniPiano/piano-proj4.jpg"
+        "images/portfolio/TravelCompanion/travel-proj1.jpg",
+        "images/portfolio/TravelCompanion/travel-proj2.jpg",
+        "images/portfolio/TravelCompanion/travel-proj3.jpg"
       ],
-      "url": "https://sauls-piano-app.netlify.app/",
+      "url": "https://sauls-travel-companion.netlify.app/",
+      "github_url": "https://github.com/Saul-RobotPenguin/Travel-Companion",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain colored",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain colored",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-react-plain colored",
+          "name": "React"
+        },
+        {
+          "class": "devicon-materialui-plain colored",
+          "name": "Material UI"
+        },
+        {
+          "class": "devicon-tailwindcss-plain colored",
+          "name": "Tailwind.css"
+        }
+      ]
+    },
+
+    {
+      "title": "Music Player",
+      "startDate": "2022",
+      "description": "A project that I built to further my skills in ReactJS, I built this project because I often get asked what type of music I like, my answer is usually \" It's complicated but I like the loud drums and the loud beeps\" which is followed by people looking at me like I was a robot hiding in secret, attempting to blend in with the human race and that they should probably report me to the authorities before I get back onto my spaceship and return with an army of alien space warriors. So to save another night of getting locked up by the FBI, I built this website so that I could be that guy who says \"Actually, you can go to my website to find out! Here's the link\" at parties. Well, moving on, I built this website using ReactJS, building a PlayerDetails component that shows the Song Cover, Song Title, Songs Artist, and the information of the following next song. A PlayerControls Component that handles the icons on the player so if the user clicks play => shows a play icon whether as if the user hits pause => show a pause icon. For the, I could have used the audio tag and allowed a controls option, this would be the lazy way out since it already uses the HTML built functionalities so I decided to reverse engineer it on my own, creating functions that do the buttons corresponding actions, I also made it so that when a song finishes, the following song automatically plays. Each song is inside an array and each index is iterated for the next song upon reaching the last song, it starts from the beginning. Overall it was fun, I used Font Awesome for the icons, google for the song covers, and made balls in the background that move randomly to give it that cool look. ",
+      "images": [
+        "images/portfolio/Music Player/musicplayer-proj.jpg",
+        "images/portfolio/Music Player/musicplayer-proj2.jpg",
+        "images/portfolio/Music Player/musicplayer-proj3.jpg",
+        "images/portfolio/Music Player/musicplayer-proj4.jpg"
+      ],
+      "url": "https://sauls-music-player.netlify.app/",
+      "github_url": "https://github.com/Saul-RobotPenguin/React-Music-Player",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain colored",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain colored",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-react-plain colored",
+          "name": "React"
+        }
+      ]
+    },
+    {
+      "title": "Drawer Maker",
+      "startDate": "2022",
+      "description": "A drawing website that I did because I wondered whether it was possible. I mean when you think about it, web pages are like blocks of texts and elements. How do you make a working game or a drawing app within a website??? Well, it's by the canvas tag. Using the canvas tag you can manipulate what occurs within it. While building this project I learned how to make strokes of colors depending on the color the user chooses and how to make an eraser functionality as well as even allowing the user to save their artwork onto their PC. Overall I usually hate art because I suck at it but while building this project, I almost started to feel like a kid. Anyways I used javascript for the eraser, drawing, saving the canvas, and clearing it out while using some CSS and Bootstrap to make the website look overall nice. This website had a ton of bugs initially but I finally fine-tuned it. I mean I think there are no bugs.....",
+      "images": [
+        "images/portfolio/Drawing Website/drawing-proj.jpg",
+        "images/portfolio/Drawing Website/drawing-proj2.jpg",
+        "images/portfolio/Drawing Website/drawing-proj3.jpg",
+        "images/portfolio/Drawing Website/drawing-proj4.jpg"
+      ],
+      "url": "https://saul-robotpenguin.github.io/Drawer-Maker/",
+      "github_url": "https://github.com/Saul-RobotPenguin/Drawer-Maker",
       "technologies": [
         {
           "class": "devicon-html5-plain colored",
@@ -67,11 +188,48 @@
           "name": "JavaScript"
         },
         {
-          "class": "devicon-premierepro-plain colored",
-          "name": "Premiere Pro"
+          "class": "devicon-bootstrap-plain colored",
+          "name": "Bootstrap"
         }
       ]
     },
+
+    {
+      "title": "Chatty",
+      "startDate": "2022",
+      "description": "A Chatting Room Website, I made this particularly because I was really interested in Socket.IO I have seen other projects implementing Socket.IO so I decided to give it a try. I used Socket IO to make it possible to send messages to anyone within the chatroom in real-time. (If anyone is there that is, you can still try it by opening another tab) I also used the Express framework for the server-side to make it easier, allowing me to store users' input and differentiate other users from the main user. I planned on adding a name functionality and room functionality in the future since right now everyone is huddling up in a single chatroom. Having separate rooms with a room id and a username would make it more personal and fun. I think... OH and don't worry the messages aren't saved! So type \"Saul is Awesome!\" for me, please. ",
+      "images": [
+        "images/portfolio/ChatRoom/chatroom-proj.jpg",
+        "images/portfolio/ChatRoom/chatroom-proj2.jpg",
+        "images/portfolio/ChatRoom/chatroom-proj3.jpg",
+        "images/portfolio/ChatRoom/chatroom-proj4.jpg"
+      ],
+      "url": "https://sauls-chatty-website.herokuapp.com/",
+      "github_url": "https://github.com/Saul-RobotPenguin/Chatty",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain colored",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain colored",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-javascript-plain colored",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-express-original colored",
+          "name": "ExpressJS"
+        },
+        {
+          "class": "devicon-socketio-original colored",
+          "name": "Socket.IO"
+        }
+      ]
+    },
+
     {
       "title": "Transcribe",
       "startDate": "2021",
@@ -83,6 +241,7 @@
         "images/portfolio/Transcribe/transcribe4.jpg"
       ],
       "url": "https://zealous-lichterman-8fb6b6.netlify.app/",
+      "github_url": "https://github.com/Saul-RobotPenguin/Transcribe",
       "technologies": [
         {
           "class": "devicon-html5-plain colored",
@@ -107,16 +266,17 @@
       ]
     },
     {
-      "title": "Chatty",
-      "startDate": "2022",
-      "description": "A Chatting Room Website, I made this particularly because I was really interested in Socket.IO I have seen other projects implementing Socket.IO so I decided to give it a try. I used Socket IO to make it possible to send messages to anyone within the chatroom in real-time. (If anyone is there that is, you can still try it by opening another tab) I also used the Express framework for the server-side to make it easier, allowing me to store users' input and differentiate other users from the main user. I planned on adding a name functionality and room functionality in the future since right now everyone is huddling up in a single chatroom. Having separate rooms with a room id and a username would make it more personal and fun. I think... OH and don't worry the messages aren't saved! So type \"Saul is Awesome!\" for me, please. ",
+      "title": "Mini Piano Player",
+      "startDate": "2021",
+      "description": "Another personal project of mine. One of the many instruments that I wanted to learn to play was the piano. Sadly I don't have any space in my apartment, errr, I mean my butler refuses to get one so I settled for programming one so that anyone could play a piano without the cost nor the need of breaking someones ankles when they refuse to give up their piano because its too heavy while everyone at Carnegie Hall is watching you two duke it out. This project taught me about onkeydown/onkeyup events, music notes, adding classes to give that piano key press look, then removing it when its no longer pressed, keycodes, and I also learned how hard it is to find good audio clips of piano sounds. I also wanted to include a \"music sheet\"  that allows anyone to just start jamming without embarrassing themselves in front of the audience at Carnegie hall. I really love Carnegie Hall.....  ",
       "images": [
-        "images/portfolio/ChatRoom/chatroom-proj.jpg",
-        "images/portfolio/ChatRoom/chatroom-proj2.jpg",
-        "images/portfolio/ChatRoom/chatroom-proj3.jpg",
-        "images/portfolio/ChatRoom/chatroom-proj4.jpg"
+        "images/portfolio/MiniPiano/piano-proj.jpg",
+        "images/portfolio/MiniPiano/piano-proj2.jpg",
+        "images/portfolio/MiniPiano/piano-proj3.jpg",
+        "images/portfolio/MiniPiano/piano-proj4.jpg"
       ],
-      "url": "https://sauls-chatty-website.herokuapp.com/",
+      "url": "https://sauls-piano-app.netlify.app/",
+      "github_url": "https://github.com/Saul-RobotPenguin/Mini-Piano",
       "technologies": [
         {
           "class": "devicon-html5-plain colored",
@@ -131,26 +291,22 @@
           "name": "JavaScript"
         },
         {
-          "class": "devicon-express-original colored",
-          "name": "ExpressJS"
-        },
-        {
-          "class": "devicon-socketio-original colored",
-          "name": "Socket.IO"
+          "class": "devicon-premierepro-plain colored",
+          "name": "Premiere Pro"
         }
       ]
     },
     {
-      "title": "Drawer Maker",
-      "startDate": "2022",
-      "description": "A drawing website that I did because I wondered whether it was possible. I mean when you think about it, web pages are like blocks of texts and elements. How do you make a working game or a drawing app within a website??? Well, it's by the canvas tag. Using the canvas tag you can manipulate what occurs within it. While building this project I learned how to make strokes of colors depending on the color the user chooses and how to make an eraser functionality as well as even allowing the user to say their artwork. Overall I usually hate art because I suck at it but while building this project, I almost started to feel like a kid. Anyways I used javascript for the eraser, drawing, saving the canvas, and clearing it out while using some CSS and Bootstrap to make the website look overall nice. This website had a ton of bugs initially but I finally fine-tuned it. I mean I think there are no bugs.....",
+      "title": "Classic Calculator Website",
+      "startDate": "2021",
+      "description": "The beginning of my coding journey, developed and designed a functional calculator website that can be used as a substitute as any other normal calculator (If you somehow find yourself accidentally uninstalling your calculator app within your computer and phone that is). This project not only taught me how to store users variables, show them on the screen, style a calculator but create functions that can run depending on the button pressed.",
       "images": [
-        "images/portfolio/Drawing Website/drawing-proj.jpg",
-        "images/portfolio/Drawing Website/drawing-proj2.jpg",
-        "images/portfolio/Drawing Website/drawing-proj3.jpg",
-        "images/portfolio/Drawing Website/drawing-proj4.jpg"
+        "images/portfolio/Calculator/calculator-proj1.jpg",
+        "images/portfolio/Calculator/calculator-proj2.jpg",
+        "images/portfolio/Calculator/calculator-proj3.jpg"
       ],
-      "url": "https://saul-robotpenguin.github.io/Drawer-Maker/",
+      "url": "https://sauls-calculator-app.netlify.app/",
+      "github_url": "https://github.com/Saul-RobotPenguin/CalculatorWebsite",
       "technologies": [
         {
           "class": "devicon-html5-plain colored",
@@ -162,108 +318,7 @@
         },
         {
           "class": "devicon-javascript-plain colored",
-          "name": "JavaScript"
-        },
-        {
-          "class": "devicon-bootstrap-plain colored",
-          "name": "Bootstrap"
-        }
-      ]
-    },
-    {
-      "title": "Music Player",
-      "startDate": "2022",
-      "description": "A project that I built to further my skills in ReactJS, I built this project because I often get asked what type of music I like, my answer is usually \" It's complicated but I like the loud drums and the loud beeps\" which is followed by people looking at me like I was a robot hiding in secret, attempting to blend in with the human race and that they should probably report me to the authorities before I get back onto my spaceship and return with an army of alien space warriors. So to save another night of getting locked up by the FBI, I built this website so that I could be that guy who says \"Actually, you can go to my website to find out! Here's the link\" at parties. Well, moving on, I built this website using ReactJS, building a PlayerDetails component that shows the Song Cover, Song Title, Songs Artist, and the information of the following next song. A PlayerControls Component that handles the icons on the player so if the user clicks play => shows a play icon whether as if the user hits pause => show a pause icon. For the, I could have used the audio tag and allowed a controls option, this would be the lazy way out since it already uses the HTML built functionalities so I decided to reverse engineer it on my own, creating functions that do the buttons corresponding actions, I also made it so that when a song finishes, the following song automatically plays. Each song is inside an array and each index is iterated for the next song upon reaching the last song, it starts from the beginning. Overall it was fun, I used Font Awesome for the icons, google for the song covers, and made balls in the background that move randomly to give it that cool look. ",
-      "images": [
-        "images/portfolio/Music Player/musicplayer-proj.jpg",
-        "images/portfolio/Music Player/musicplayer-proj2.jpg",
-        "images/portfolio/Music Player/musicplayer-proj3.jpg",
-        "images/portfolio/Music Player/musicplayer-proj4.jpg"
-      ],
-      "url": "https://sauls-music-player.netlify.app/",
-      "technologies": [
-        {
-          "class": "devicon-html5-plain colored",
-          "name": "HTML5"
-        },
-        {
-          "class": "devicon-css3-plain colored",
-          "name": "CSS3"
-        },
-        {
-          "class": "devicon-react-plain colored",
-          "name": "React"
-        }
-      ]
-    },
-    {
-      "title": "Travel Companion",
-      "startDate": "2022",
-      "description": "Another Project I build using the Travel Advisor API, Google Maps Javascript API, and Places API, this one was built using ReactJS and fetching data from the API using Axios. This would show Hotels, Restaurants and Attractions near the user by taking their location into account, querying through them depending on ratings while also showing any certificates that the restaurant, hotel or attraction might have obtained. I also used Material UI Icons to style the website and Tailwind CSS to make the cards and map more responsive. Essentially this was a project that I wanted to use to expose me with Google Apis since I heard that they were notoriously difficult to work with due to the confusing wording of their documentation, making them very difficult for new developers to work with them. I also style the map using a site called Snazzymaps to make it look more personal rather than keep the old dull map style that was defaulted. Either way, another fun project that helped me further improve my skills as a web developer. Also I limited the amount of API calls that you can make on the site in order to not get an unbelievable charged on my account from Google. Maybe I'll get rid of that limit when I win the lottery.... ",
-      "images": [
-        "images/portfolio/TravelCompanion/travel-proj1.jpg",
-        "images/portfolio/TravelCompanion/travel-proj2.jpg",
-        "images/portfolio/TravelCompanion/travel-proj3.jpg"
-      ],
-      "url": "https://sauls-travel-companion.netlify.app/",
-      "technologies": [
-        {
-          "class": "devicon-html5-plain colored",
-          "name": "HTML5"
-        },
-        {
-          "class": "devicon-css3-plain colored",
-          "name": "CSS3"
-        },
-        {
-          "class": "devicon-react-plain colored",
-          "name": "React"
-        },
-        {
-          "class": "devicon-materialui-plain colored",
-          "name": "Material UI"
-        },
-        {
-          "class": "devicon-tailwindcss-plain colored",
-          "name": "Tailwind.css"
-        }
-      ]
-    },
-    {
-      "title": "Poetry Cafe",
-      "startDate": "2022",
-      "description": "In a ReactJS Project that I built for Phase Two during my time at TKH, I was required to make a website that handles three API calls while also being styled and coded using the React Library, similar to our Phase 1 Project but this time we were challenged to work by ourselves. I did a Poetry Website because I write poetry (Though not as much as now during the time of this writing) during my free time and it's something that helps me understand myself a bit better. So for this project, I used ReactJS to make the components on the Website and I used TailWind CSS to stylize the website, React Router for the navigation throughout the Search Page, Random Page, and Home Page,  Font Awesome for the Icons such as the Cafe Icons, Theme-Change for the Light-Mode and Dark-Mode or in this case (Cappuccino-Mode and Mocha-Mode) to give the user some sort of personalization, EmailJS for the option for the user to send themselves a poem that they found on the website for safekeeping and DaisyUI for easier configuration of Tailwind Components. For this project, I also wanted to experience working with Local Storage, so I added a functionality where we can save the users email address if they checked the remember me checkbox. I managed to get it working, this is what most websites use in order to improve user experience rather then doing it repetitively but if you want your email to no longer be remembered by the webpage then just delete your cookies form the site.",
-      "images": [
-        "images/portfolio/Poetry Cafe/poetry-cafe-proj1.jpg",
-        "images/portfolio/Poetry Cafe/poetry-cafe-proj2.jpg",
-        "images/portfolio/Poetry Cafe/poetry-cafe-proj3.jpg",
-        "images/portfolio/Poetry Cafe/poetry-cafe-proj4.jpg",
-        "images/portfolio/Poetry Cafe/poetry-cafe-proj5.jpg",
-        "images/portfolio/Poetry Cafe/poetry-cafe-proj6.jpg",
-        "images/portfolio/Poetry Cafe/poetry-cafe-proj7.jpg",
-        "images/portfolio/Poetry Cafe/poetry-cafe-proj8.jpg",
-        "images/portfolio/Poetry Cafe/poetry-cafe-proj9.jpg",
-        "images/portfolio/Poetry Cafe/poetry-cafe-proj10.jpg",
-        "images/portfolio/Poetry Cafe/poetry-cafe-proj11.jpg",
-        "images/portfolio/Poetry Cafe/poetry-cafe-proj12.jpg"
-      ],
-      "url": "https://poetry-cafe.vercel.app/",
-      "technologies": [
-        {
-          "class": "devicon-html5-plain colored",
-          "name": "HTML5"
-        },
-        {
-          "class": "devicon-css3-plain colored",
-          "name": "CSS3"
-        },
-        {
-          "class": "devicon-react-plain colored",
-          "name": "React"
-        },
-        {
-          "class": "devicon-tailwindcss-plain colored",
-          "name": "Tailwind.css"
+          "name": "Javascript"
         }
       ]
     }

@@ -18,19 +18,26 @@
   },
   "projects": [
     {
-      "title": "Web De Calculadora Clásica",
-      "startDate": "2021",
-      "description": "El comienzo de mi viaje de codificación, desarrollé y diseñé un sitio web de calculadora funcional que se puede usar como sustituto de cualquier otra calculadora normal (si de alguna manera te encuentras accidentalmente desinstalando la aplicación de calculadora dentro de tu computadora y teléfono). Este proyecto no solo me enseñó cómo almacenar variables de usuarios, mostrarlas en la pantalla, diseñar una calculadora, sino también crear funciones que pueden ejecutarse según el botón presionado.",
+      "title": "AcortarMiURL",
+      "startDate": "2022",
+      "description": "Así que alguna vez has echado un vistazo a algo y has pensado \"Eso es algo que se puede acortar\".... ¡Y no, no estoy hablando de la deuda estudiantil! (Aunque estoy bastante seguro de que todos deseamos que nuestra deuda simplemente desaparezca) Estoy hablando de enlaces que son tan prolijos sin una razón, ¿por qué debería suceder eso? Así que decidí desarrollar mi propio acortador de URL llamado \"ShortenMyURL\". Creé este sitio web usando EJS, aunque no pude encontrar un icono adecuado para EJS en Devicon, así que decidí poner un icono de manillar como sustituto, ya que ambos hacen lo mismo, excepto que EJS es más preferido, EJS es esencialmente una plantilla constructor que le permite construir HTML con Javascript simple, en este sentido, es muy similar a ReactJS, sin embargo, ReactJS permite que los componentes se hablen entre sí, pero dado que esto es solo un acortador de URL, pensé que usar ReactJS sería excesivo e innecesario . Para las bases de datos, estoy usando MongoDB, una alternativa a SQL que usa NoSQL. En mi opinión, es simple y más fácil de usar, ya que no habrá necesidad de relaciones de datos, que es un aspecto que haría que SQL fuera más preferido si estuviera persiguiendo esto. También usé Express.js para el backend, ya que estamos usando un servidor que puede tomar la entrada de un usuario y almacenarla dentro de nuestra base de datos o cuando el usuario navega a la URL abreviada, luego es conducido a nuestro sitio web por un breve segundo, lo que nuestro sitio web verifica su enlace acortado y ve si existe, luego lo redirige al enlace completo que el usuario proporcionó inicialmente, para que esto funcione, se necesita un servidor y Express facilita la configuración de rutas . En general, el proyecto fue interesante, el mayor desafío fue conseguir que este sitio web fuera alojado. Usualmente uso Netlify y, desafortunadamente, Netlify hace páginas estáticas; sin embargo, tendrá que crear un archivo netlify.toml que pueda ejecutar funciones que luego le permitirían hacer que el sitio web estático imite un servidor. No conseguí que funcionara, así que decidí alojarlo en Heroku, lo cual fue más fácil ya que Heroku está más diseñado para manejar aplicaciones con servidores.",
       "images": [
-        "images/portfolio/Calculator/calculator-proj1.jpg",
-        "images/portfolio/Calculator/calculator-proj2.jpg",
-        "images/portfolio/Calculator/calculator-proj3.jpg"
+        "images/portfolio/ShortenMyURL/shorten-my-url-proj1.jpg",
+        "images/portfolio/ShortenMyURL/shorten-my-url-proj2.jpg",
+        "images/portfolio/ShortenMyURL/shorten-my-url-proj3.jpg",
+        "images/portfolio/ShortenMyURL/shorten-my-url-proj4.jpg",
+        "images/portfolio/ShortenMyURL/shorten-my-url-proj5.jpg"
       ],
-      "url": "https://sauls-calculator-app.netlify.app/",
+      "url": "https://sauls-shorten-my-url.herokuapp.com/",
+      "github_url": "https://github.com/Saul-RobotPenguin/ShortenMyURL",
       "technologies": [
         {
           "class": "devicon-html5-plain colored",
           "name": "HTML5"
+        },
+        {
+          "class": "devicon-handlebars-plain colored",
+          "name": "EJS"
         },
         {
           "class": "devicon-css3-plain colored",
@@ -39,148 +46,41 @@
         {
           "class": "devicon-javascript-plain colored",
           "name": "Javascript"
-        }
-      ]
-    },
-    {
-      "title": "Mini Pianista",
-      "startDate": "2021",
-      "description": "Otro proyecto personal mío. Uno de los muchos instrumentos que quería aprender a tocar era el piano. Lamentablemente no tengo espacio en mi apartamento, errr, quiero decir que mi mayordomo se niega a conseguir uno, así que me conformé con programar uno para que cualquiera pueda tocar un piano sin el costo ni la necesidad de romperle los tobillos a alguien cuando se niega a dar. levantan su piano porque es demasiado pesado mientras todos en el Carnegie Hall los observan pelear. Este proyecto me enseñó sobre eventos onkeydown/onkeyup, notas musicales, agregar clases para dar ese aspecto de pulsación de tecla de piano, luego eliminarlo cuando ya no se presiona, códigos de tecla y lo difícil que es encontrar buenos clips de audio de sonidos de piano. También quería incluir una 'partitura' que permitiera a cualquier persona empezar a improvisar sin avergonzarse frente a la audiencia en el Carnegie Hall. Me encanta el Carnegie Hall...",
-      "images": [
-        "images/portfolio/MiniPiano/piano-proj.jpg",
-        "images/portfolio/MiniPiano/piano-proj2.jpg",
-        "images/portfolio/MiniPiano/piano-proj3.jpg",
-        "images/portfolio/MiniPiano/piano-proj4.jpg"
-      ],
-      "url": "https://sauls-piano-app.netlify.app/",
-      "technologies": [
-        {
-          "class": "devicon-html5-plain colored",
-          "name": "HTML5"
         },
         {
-          "class": "devicon-css3-plain colored",
-          "name": "CSS3"
-        },
-        {
-          "class": "devicon-javascript-plain colored",
-          "name": "JavaScript"
-        },
-        {
-          "class": "devicon-premierepro-plain colored",
-          "name": "Premiere Pro"
-        }
-      ]
-    },
-    {
-      "title": "Transcribe",
-      "startDate": "2015",
-      "description": "Una de las primeras aplicaciones en las que trabajé con un equipo en The Knowledge House, tenía compañeros de equipo increíbles, así que me quedaba despierto hasta altas horas de la noche con ellos en Zoom y me derrumbaba emocionalmente diciendo '¿Por qué esto no funciona? ¡Deberia de funcionar! ¡¡¡Es todo culpa tuya Saul!!!' (Todos, incluyéndome a mí, decían esto). Decidimos usar 3 APIS, Microsoft Translation/Detect API Endpoints (para traducir y detectar el idioma que el usuario escribió), Detectar API (para detectar idiomas con un sistema de calificación de precisión) y REST Countries para obtener información basada en países. También decidimos probar un nuevo marco de respuesta llamado Bulma. Cada uno de nosotros nos ayudábamos unos a otros, revisando el código y haciendo cambios cuando era necesario. Trabajé en el backend, probando puntos finales, agonizando por los errores de CORS y asegurándome de que todos se sintieran cómodos con lo que tenían que hacer. Ocasionalmente ayudé con el estilo y me aseguré de que todo se viera bien. No obstante, ¡estoy orgulloso de nuestro equipo y de lo que hemos logrado! ¡¡¡Vamos, Equipo Saul!!!",
-      "images": [
-        "images/portfolio/Transcribe/transcribe.jpg",
-        "images/portfolio/Transcribe/transcribe2.jpg",
-        "images/portfolio/Transcribe/transcribe3.jpg",
-        "images/portfolio/Transcribe/transcribe4.jpg"
-      ],
-      "url": "https://zealous-lichterman-8fb6b6.netlify.app/",
-      "technologies": [
-        {
-          "class": "devicon-html5-plain colored",
-          "name": "HTML5"
-        },
-        {
-          "class": "devicon-css3-plain colored",
-          "name": "CSS3"
-        },
-        {
-          "class": "devicon-javascript-plain colored",
-          "name": "JavaScript"
-        },
-        {
-          "class": "devicon-bulma-plain colored",
-          "name": "Bulma"
-        },
-        {
-          "class": "devicon-figma-plain colored",
-          "name": "Figma"
-        }
-      ]
-    },
-    {
-      "title": "Chatty",
-      "startDate": "2022",
-      "description": "Un sitio web de sala de chat, hice esto particularmente porque estaba realmente interesado en Socket.IO. He visto otros proyectos que implementan Socket.IO, así que decidí probarlo. Usé Socket IO para poder enviar mensajes a cualquiera. dentro de la sala de chat en tiempo real (si hay alguien allí, aún puede intentarlo abriendo otra pestaña) También usé el marco Express para el lado del servidor para hacerlo más fácil, permitiéndome almacenar la entrada de los usuarios y diferenciar a otros usuarios del usuario principal. Planeé agregar una funcionalidad de nombre y una funcionalidad de sala en el futuro, ya que en este momento todos se están reuniendo en una sola sala de chat. Tener salas separadas con una identificación de sala y un nombre de usuario lo haría más personal y divertido. Creo que... OH, y no te preocupes, los mensajes no se guardan, así que escribe 'Saul es increíble' para mí, por favor.",
-      "images": [
-        "images/portfolio/ChatRoom/chatroom-proj.jpg",
-        "images/portfolio/ChatRoom/chatroom-proj2.jpg",
-        "images/portfolio/ChatRoom/chatroom-proj3.jpg",
-        "images/portfolio/ChatRoom/chatroom-proj4.jpg"
-      ],
-      "url": "https://sauls-chatty-website.herokuapp.com/",
-      "technologies": [
-        {
-          "class": "devicon-html5-plain colored",
-          "name": "HTML5"
-        },
-        {
-          "class": "devicon-css3-plain colored",
-          "name": "CSS3"
-        },
-        {
-          "class": "devicon-javascript-plain colored",
-          "name": "JavaScript"
+          "class": "devicon-mongodb-plain colored",
+          "name": "MongoDB"
         },
         {
           "class": "devicon-express-original colored",
-          "name": "ExpressJS"
+          "name": "Express.js"
         },
         {
-          "class": "devicon-socketio-original colored",
-          "name": "Socket.IO"
+          "class": "devicon-heroku-original colored",
+          "name": "Heroku"
         }
       ]
     },
     {
-      "title": "Drawer Maker",
+      "title": "Café Poesía",
       "startDate": "2022",
-      "description": "Un sitio web de dibujo que hice porque me preguntaba si era posible. Quiero decir, cuando lo piensas, las páginas web son como bloques de textos y elementos. ¿Cómo se crea un juego de trabajo o una aplicación de dibujo dentro de un sitio web? Bueno, es por la etiqueta del lienzo. Usando la etiqueta del lienzo, puede manipular lo que ocurre dentro de ella. Mientras construía este proyecto, aprendí a hacer trazos de colores según el color que el usuario elija y cómo hacer una función de borrador, además de permitir que el usuario diga su obra de arte. En general, generalmente odio el arte porque apesto en él, pero mientras construía este proyecto, casi comencé a sentirme como un niño. De todos modos, usé javascript para el borrador, dibujé, guardé el lienzo y lo limpié mientras usaba CSS y Bootstrap para que el sitio web se vea bien en general. Este sitio web tenía un montón de errores al principio, pero finalmente lo puse a punto. Quiero decir, creo que no hay errores...",
+      "description": "En un proyecto de ReactJS que construí para la Fase dos durante mi tiempo en TKH, se me pidió que creara un sitio web que manejara tres llamadas a la API y al mismo tiempo se diseñara y codificara usando la Biblioteca React, similar a nuestro Proyecto de la Fase 1, pero esta vez estábamos desafiados a trabajar solos. Hice un sitio web de poesía porque escribo poesía (aunque no tanto como ahora durante el tiempo que escribo esto) durante mi tiempo libre y es algo que me ayuda a entenderme un poco mejor. Entonces, para este proyecto, usé ReactJS para hacer los componentes en el sitio web y usé TailWind CSS para estilizar el sitio web, React Router para la navegación a lo largo de la página de búsqueda, la página aleatoria y la página de inicio, Font Awesome para los íconos como el Íconos de café, cambio de tema para el modo claro y el modo oscuro o, en este caso, (modo capuchino y modo moca) para darle al usuario algún tipo de personalización, EmailJS para la opción de que el usuario se envíe a sí mismo un poema que encontraron en el sitio web para su custodia y DaisyUI para una configuración más sencilla de los componentes de Tailwind. Para este proyecto, también quería experimentar el trabajo con almacenamiento local, por lo que agregué una funcionalidad en la que podemos guardar la dirección de correo electrónico de los usuarios si marcaron la casilla de verificación Recordarme. Logré hacerlo funcionar, esto es lo que la mayoría de los sitios web usan para mejorar la experiencia del usuario en lugar de hacerlo de manera repetitiva, pero si desea que la página web ya no recuerde su correo electrónico, simplemente elimine las cookies del sitio.",
       "images": [
-        "images/portfolio/Drawing Website/drawing-proj.jpg",
-        "images/portfolio/Drawing Website/drawing-proj2.jpg",
-        "images/portfolio/Drawing Website/drawing-proj3.jpg",
-        "images/portfolio/Drawing Website/drawing-proj4.jpg"
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj1.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj2.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj3.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj4.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj5.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj6.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj7.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj8.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj9.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj10.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj11.jpg",
+        "images/portfolio/Poetry Cafe/poetry-cafe-proj12.jpg"
       ],
-      "url": "https://saul-robotpenguin.github.io/Drawer-Maker/",
-      "technologies": [
-        {
-          "class": "devicon-html5-plain colored",
-          "name": "HTML5"
-        },
-        {
-          "class": "devicon-css3-plain colored",
-          "name": "CSS3"
-        },
-        {
-          "class": "devicon-javascript-plain colored",
-          "name": "JavaScript"
-        },
-        {
-          "class": "devicon-bootstrap-plain colored",
-          "name": "Bootstrap"
-        }
-      ]
-    },
-    {
-      "title": "Reproductor De Música",
-      "startDate": "2022",
-      "description": "Un proyecto que construí para mejorar mis habilidades en ReactJS, construí este proyecto porque a menudo me preguntan qué tipo de música me gusta, mi respuesta suele ser \"Es complicado, pero me gustan los tambores fuertes y los pitidos fuertes\", que es seguido por personas que me miraban como si fuera un robot escondido en secreto, tratando de mezclarse con la raza humana y que probablemente deberían informarme a las autoridades antes de que regrese a mi nave espacial y regrese con un ejército de guerreros espaciales alienígenas. Entonces, para evitar otra noche de ser encerrado por el FBI, construí este sitio web para poder ser ese tipo que dice \"En realidad, ¡puedes ir a mi sitio web para averiguarlo! Aquí está el enlace\" en las fiestas. Bueno, continuando, construí este sitio web usando ReactJS, creando un componente PlayerDetails que muestra la portada de la canción, el título de la canción, el artista de la canción y la información de la siguiente canción. Un componente PlayerControls que maneja los íconos en el reproductor, de modo que si el usuario hace clic en reproducir => muestra un ícono de reproducción, ya sea como si el usuario presiona pausa => muestra un ícono de pausa. Para el, podría haber usado la etiqueta de audio y permitir una opción de controles, esta sería la salida perezosa ya que ya usa las funcionalidades integradas de HTML, así que decidí aplicar ingeniería inversa por mi cuenta, creando funciones que hacen los botones acciones correspondientes , también lo hice para que cuando termine una canción, la siguiente canción se reproduzca automáticamente. Cada canción está dentro de una matriz y cada índice se repite para la siguiente canción al llegar a la última canción, comienza desde el principio. En general, fue divertido, usé Font Awesome para los íconos, busqué en Google para las versiones de las canciones e hice bolas en el fondo que se movían al azar para darle ese aspecto genial.",
-      "images": [
-        "images/portfolio/Music Player/musicplayer-proj.jpg",
-        "images/portfolio/Music Player/musicplayer-proj2.jpg",
-        "images/portfolio/Music Player/musicplayer-proj3.jpg",
-        "images/portfolio/Music Player/musicplayer-proj4.jpg"
-      ],
-      "url": "https://sauls-music-player.netlify.app/",
+      "url": "https://poetry-cafe.vercel.app/",
+      "github_url": "https://github.com/Saul-RobotPenguin/Poetry-Cafe",
       "technologies": [
         {
           "class": "devicon-html5-plain colored",
@@ -193,6 +93,10 @@
         {
           "class": "devicon-react-plain colored",
           "name": "React"
+        },
+        {
+          "class": "devicon-tailwindcss-plain colored",
+          "name": "Tailwind.css"
         }
       ]
     },
@@ -206,6 +110,7 @@
         "images/portfolio/TravelCompanion/travel-proj3.jpg"
       ],
       "url": "https://sauls-travel-companion.netlify.app/",
+      "github_url": "https://github.com/Saul-RobotPenguin/Travel-Companion",
       "technologies": [
         {
           "class": "devicon-html5-plain colored",
@@ -229,25 +134,19 @@
         }
       ]
     },
+
     {
-      "title": "Café Poesía",
+      "title": "Reproductor De Música",
       "startDate": "2022",
-      "description": "En un proyecto de ReactJS que construí para la Fase dos durante mi tiempo en TKH, se me pidió que creara un sitio web que manejara tres llamadas a la API y al mismo tiempo se diseñara y codificara usando la Biblioteca React, similar a nuestro Proyecto de la Fase 1, pero esta vez estábamos desafiados a trabajar solos. Hice un sitio web de poesía porque escribo poesía (aunque no tanto como ahora durante el tiempo que escribo esto) durante mi tiempo libre y es algo que me ayuda a entenderme un poco mejor. Entonces, para este proyecto, usé ReactJS para hacer los componentes en el sitio web y usé TailWind CSS para estilizar el sitio web, React Router para la navegación a lo largo de la página de búsqueda, la página aleatoria y la página de inicio, Font Awesome para los íconos como el Íconos de café, cambio de tema para el modo claro y el modo oscuro o, en este caso, (modo capuchino y modo moca) para darle al usuario algún tipo de personalización, EmailJS para la opción de que el usuario se envíe a sí mismo un poema que encontraron en el sitio web para su custodia y DaisyUI para una configuración más sencilla de los componentes de Tailwind. Para este proyecto, también quería experimentar el trabajo con almacenamiento local, por lo que agregué una funcionalidad en la que podemos guardar la dirección de correo electrónico de los usuarios si marcaron la casilla de verificación Recordarme. Logré hacerlo funcionar, esto es lo que la mayoría de los sitios web usan para mejorar la experiencia del usuario en lugar de hacerlo de manera repetitiva, pero si desea que la página web ya no recuerde su correo electrónico, simplemente elimine las cookies del sitio.",
+      "description": "Un proyecto que construí para mejorar mis habilidades en ReactJS, construí este proyecto porque a menudo me preguntan qué tipo de música me gusta, mi respuesta suele ser \"Es complicado, pero me gustan los tambores fuertes y los pitidos fuertes\", que es seguido por personas que me miraban como si fuera un robot escondido en secreto, tratando de mezclarse con la raza humana y que probablemente deberían informarme a las autoridades antes de que regrese a mi nave espacial y regrese con un ejército de guerreros espaciales alienígenas. Entonces, para evitar otra noche de ser encerrado por el FBI, construí este sitio web para poder ser ese tipo que dice \"En realidad, ¡puedes ir a mi sitio web para averiguarlo! Aquí está el enlace\" en las fiestas. Bueno, continuando, construí este sitio web usando ReactJS, creando un componente PlayerDetails que muestra la portada de la canción, el título de la canción, el artista de la canción y la información de la siguiente canción. Un componente PlayerControls que maneja los íconos en el reproductor, de modo que si el usuario hace clic en reproducir => muestra un ícono de reproducción, ya sea como si el usuario presiona pausa => muestra un ícono de pausa. Para el, podría haber usado la etiqueta de audio y permitir una opción de controles, esta sería la salida perezosa ya que ya usa las funcionalidades integradas de HTML, así que decidí aplicar ingeniería inversa por mi cuenta, creando funciones que hacen los botones acciones correspondientes , también lo hice para que cuando termine una canción, la siguiente canción se reproduzca automáticamente. Cada canción está dentro de una matriz y cada índice se repite para la siguiente canción al llegar a la última canción, comienza desde el principio. En general, fue divertido, usé Font Awesome para los íconos, busqué en Google para las versiones de las canciones e hice bolas en el fondo que se movían al azar para darle ese aspecto genial.",
       "images": [
-        "images/portfolio/Poetry Cafe/poetry-cafe-proj1.jpg",
-        "images/portfolio/Poetry Cafe/poetry-cafe-proj2.jpg",
-        "images/portfolio/Poetry Cafe/poetry-cafe-proj3.jpg",
-        "images/portfolio/Poetry Cafe/poetry-cafe-proj4.jpg",
-        "images/portfolio/Poetry Cafe/poetry-cafe-proj5.jpg",
-        "images/portfolio/Poetry Cafe/poetry-cafe-proj6.jpg",
-        "images/portfolio/Poetry Cafe/poetry-cafe-proj7.jpg",
-        "images/portfolio/Poetry Cafe/poetry-cafe-proj8.jpg",
-        "images/portfolio/Poetry Cafe/poetry-cafe-proj9.jpg",
-        "images/portfolio/Poetry Cafe/poetry-cafe-proj10.jpg",
-        "images/portfolio/Poetry Cafe/poetry-cafe-proj11.jpg",
-        "images/portfolio/Poetry Cafe/poetry-cafe-proj12.jpg"
+        "images/portfolio/Music Player/musicplayer-proj.jpg",
+        "images/portfolio/Music Player/musicplayer-proj2.jpg",
+        "images/portfolio/Music Player/musicplayer-proj3.jpg",
+        "images/portfolio/Music Player/musicplayer-proj4.jpg"
       ],
-      "url": "https://poetry-cafe.vercel.app/",
+      "url": "https://sauls-music-player.netlify.app/",
+      "github_url": "https://github.com/Saul-RobotPenguin/React-Music-Player",
       "technologies": [
         {
           "class": "devicon-html5-plain colored",
@@ -260,10 +159,167 @@
         {
           "class": "devicon-react-plain colored",
           "name": "React"
+        }
+      ]
+    },
+
+    {
+      "title": "Dibujador Fabricante",
+      "startDate": "2022",
+      "description": "Un sitio web de dibujo que hice porque me preguntaba si era posible. Quiero decir, cuando lo piensas, las páginas web son como bloques de textos y elementos. ¿Cómo se crea un juego de trabajo o una aplicación de dibujo dentro de un sitio web? Bueno, es por la etiqueta del lienzo. Usando la etiqueta del lienzo, puede manipular lo que ocurre dentro de ella. Mientras construía este proyecto, aprendí a hacer trazos de colores según el color que el usuario elija y cómo hacer una función de borrador, además de permitir que el usuario diga su obra de arte. En general, generalmente odio el arte porque apesto en él, pero mientras construía este proyecto, casi comencé a sentirme como un niño. De todos modos, usé javascript para el borrador, dibujé, guardé el lienzo y lo limpié mientras usaba CSS y Bootstrap para que el sitio web se vea bien en general. Este sitio web tenía un montón de errores al principio, pero finalmente lo puse a punto. Quiero decir, creo que no hay errores...",
+      "images": [
+        "images/portfolio/Drawing Website/drawing-proj.jpg",
+        "images/portfolio/Drawing Website/drawing-proj2.jpg",
+        "images/portfolio/Drawing Website/drawing-proj3.jpg",
+        "images/portfolio/Drawing Website/drawing-proj4.jpg"
+      ],
+      "url": "https://saul-robotpenguin.github.io/Drawer-Maker/",
+      "github_url": "https://github.com/Saul-RobotPenguin/Drawer-Maker",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain colored",
+          "name": "HTML5"
         },
         {
-          "class": "devicon-tailwindcss-plain colored",
-          "name": "Tailwind.css"
+          "class": "devicon-css3-plain colored",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-javascript-plain colored",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-bootstrap-plain colored",
+          "name": "Bootstrap"
+        }
+      ]
+    },
+    {
+      "title": "Chatty",
+      "startDate": "2022",
+      "description": "Un sitio web de sala de chat, hice esto particularmente porque estaba realmente interesado en Socket.IO. He visto otros proyectos que implementan Socket.IO, así que decidí probarlo. Usé Socket IO para poder enviar mensajes a cualquiera. dentro de la sala de chat en tiempo real (si hay alguien allí, aún puede intentarlo abriendo otra pestaña) También usé el marco Express para el lado del servidor para hacerlo más fácil, permitiéndome almacenar la entrada de los usuarios y diferenciar a otros usuarios del usuario principal. Planeé agregar una funcionalidad de nombre y una funcionalidad de sala en el futuro, ya que en este momento todos se están reuniendo en una sola sala de chat. Tener salas separadas con una identificación de sala y un nombre de usuario lo haría más personal y divertido. Creo que... OH, y no te preocupes, los mensajes no se guardan, así que escribe 'Saul es increíble' para mí, por favor.",
+      "images": [
+        "images/portfolio/ChatRoom/chatroom-proj.jpg",
+        "images/portfolio/ChatRoom/chatroom-proj2.jpg",
+        "images/portfolio/ChatRoom/chatroom-proj3.jpg",
+        "images/portfolio/ChatRoom/chatroom-proj4.jpg"
+      ],
+      "url": "https://sauls-chatty-website.herokuapp.com/",
+      "github_url": "https://github.com/Saul-RobotPenguin/Chatty",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain colored",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain colored",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-javascript-plain colored",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-express-original colored",
+          "name": "ExpressJS"
+        },
+        {
+          "class": "devicon-socketio-original colored",
+          "name": "Socket.IO"
+        }
+      ]
+    },
+
+    {
+      "title": "Transcribe",
+      "startDate": "2015",
+      "description": "Una de las primeras aplicaciones en las que trabajé con un equipo en The Knowledge House, tenía compañeros de equipo increíbles, así que me quedaba despierto hasta altas horas de la noche con ellos en Zoom y me derrumbaba emocionalmente diciendo '¿Por qué esto no funciona? ¡Deberia de funcionar! ¡¡¡Es todo culpa tuya Saul!!!' (Todos, incluyéndome a mí, decían esto). Decidimos usar 3 APIS, Microsoft Translation/Detect API Endpoints (para traducir y detectar el idioma que el usuario escribió), Detectar API (para detectar idiomas con un sistema de calificación de precisión) y REST Countries para obtener información basada en países. También decidimos probar un nuevo marco de respuesta llamado Bulma. Cada uno de nosotros nos ayudábamos unos a otros, revisando el código y haciendo cambios cuando era necesario. Trabajé en el backend, probando puntos finales, agonizando por los errores de CORS y asegurándome de que todos se sintieran cómodos con lo que tenían que hacer. Ocasionalmente ayudé con el estilo y me aseguré de que todo se viera bien. No obstante, ¡estoy orgulloso de nuestro equipo y de lo que hemos logrado! ¡¡¡Vamos, Equipo Saul!!!",
+      "images": [
+        "images/portfolio/Transcribe/transcribe.jpg",
+        "images/portfolio/Transcribe/transcribe2.jpg",
+        "images/portfolio/Transcribe/transcribe3.jpg",
+        "images/portfolio/Transcribe/transcribe4.jpg"
+      ],
+      "url": "https://zealous-lichterman-8fb6b6.netlify.app/",
+      "github_url": "https://github.com/Saul-RobotPenguin/Transcribe",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain colored",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain colored",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-javascript-plain colored",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-bulma-plain colored",
+          "name": "Bulma"
+        },
+        {
+          "class": "devicon-figma-plain colored",
+          "name": "Figma"
+        }
+      ]
+    },
+
+    {
+      "title": "Mini Pianista",
+      "startDate": "2021",
+      "description": "Otro proyecto personal mío. Uno de los muchos instrumentos que quería aprender a tocar era el piano. Lamentablemente no tengo espacio en mi apartamento, errr, quiero decir que mi mayordomo se niega a conseguir uno, así que me conformé con programar uno para que cualquiera pueda tocar un piano sin el costo ni la necesidad de romperle los tobillos a alguien cuando se niega a dar. levantan su piano porque es demasiado pesado mientras todos en el Carnegie Hall los observan pelear. Este proyecto me enseñó sobre eventos onkeydown/onkeyup, notas musicales, agregar clases para dar ese aspecto de pulsación de tecla de piano, luego eliminarlo cuando ya no se presiona, códigos de tecla y lo difícil que es encontrar buenos clips de audio de sonidos de piano. También quería incluir una 'partitura' que permitiera a cualquier persona empezar a improvisar sin avergonzarse frente a la audiencia en el Carnegie Hall. Me encanta el Carnegie Hall...",
+      "images": [
+        "images/portfolio/MiniPiano/piano-proj.jpg",
+        "images/portfolio/MiniPiano/piano-proj2.jpg",
+        "images/portfolio/MiniPiano/piano-proj3.jpg",
+        "images/portfolio/MiniPiano/piano-proj4.jpg"
+      ],
+      "url": "https://sauls-piano-app.netlify.app/",
+      "github_url": "https://github.com/Saul-RobotPenguin/Mini-Piano",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain colored",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain colored",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-javascript-plain colored",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-premierepro-plain colored",
+          "name": "Premiere Pro"
+        }
+      ]
+    },
+    {
+      "title": "Web De Calculadora Clásica",
+      "startDate": "2021",
+      "description": "El comienzo de mi viaje de codificación, desarrollé y diseñé un sitio web de calculadora funcional que se puede usar como sustituto de cualquier otra calculadora normal (si de alguna manera te encuentras accidentalmente desinstalando la aplicación de calculadora dentro de tu computadora y teléfono). Este proyecto no solo me enseñó cómo almacenar variables de usuarios, mostrarlas en la pantalla, diseñar una calculadora, sino también crear funciones que pueden ejecutarse según el botón presionado.",
+      "images": [
+        "images/portfolio/Calculator/calculator-proj1.jpg",
+        "images/portfolio/Calculator/calculator-proj2.jpg",
+        "images/portfolio/Calculator/calculator-proj3.jpg"
+      ],
+      "url": "https://sauls-calculator-app.netlify.app/",
+      "github_url": "https://github.com/Saul-RobotPenguin/CalculatorWebsite",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain colored",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain colored",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-javascript-plain colored",
+          "name": "Javascript"
         }
       ]
     }
