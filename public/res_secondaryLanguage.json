@@ -18,6 +18,51 @@
   },
   "projects": [
     {
+      "title": "Hypersource",
+      "startDate": "2022",
+      "description": "Una aplicación MERN Stack que se creó utilizando MERN Technologies Stack, incluidos MongoDB, Express.js, ReactJS y NodeJS. Este proyecto fue un proyecto final asignado por un año que se construyó inicialmente con un equipo de 5. Sin embargo, a lo largo del proceso del bootcamp , algunos compañeros se retiraron y así, quedamos solo dos. Yo y otro compañero llamado Josue. Puedo decir que fue debido a este proyecto que Josue y yo comenzamos a construir otros proyectos. Para este proyecto, decidimos encontrar una manera de ayudar. Los graduados del bootcamp dentro de Knowledge House (Seguridad cibernética, ciencia de datos y desarrollo web) obtienen noticias tecnológicas relevantes junto con oportunidades laborales. Josue tuvo la tarea de hacer el wireframing y comprender cómo los usuarios interactúan con nuestro sitio web. Queríamos que este fuera un espacio donde cualquiera puede venir y leer cualquier artículo relevante dependiendo de su cohorte respectiva, pero necesitaría una cuenta para ver cualquier oportunidad de trabajo o compartir oportunidades con otros. Usamos Gnews Api para obtener la mayor relevancia y artículos actualizados relacionados con estos temas, también creamos nuestra propia Api que se comunica con nuestra base de datos y supervisa la creación de cuentas y el inicio de sesión junto con el intercambio de oportunidades de trabajo. La funcionalidad de registro se realiza con JWT, que significa JSON Web Token. Usando eso, si el usuario ha iniciado sesión, el token se guarda como una cookie en la interfaz, lo que a su vez abre las oportunidades de trabajo. Luego, cuando el usuario haya terminado, simplemente puede hacer clic en cerrar sesión y eso es todo. En general, esto fue divertido, pero queríamos agregar más funcionalidades, pero debido a la repentina desaparición de los miembros de nuestro grupo, teníamos una mano de obra limitada. ¡Creo que lo hicimos muy bien a pesar de esto!",
+      "images": [
+        "images/portfolio/Hypersource/hypersource-proj-1.jpg",
+        "images/portfolio/Hypersource/hypersource-proj-2.jpg",
+        "images/portfolio/Hypersource/hypersource-proj-3.jpg",
+        "images/portfolio/Hypersource/hypersource-proj-3.5.jpg",
+        "images/portfolio/Hypersource/hypersource-proj-4.jpg",
+        "images/portfolio/Hypersource/hypersource-proj-5.jpg"
+      ],
+      "url": "https://hypersource.netlify.app/",
+      "github_url": "https://github.com/Saul-RobotPenguin/capstone-project/tree/main",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain colored",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain colored",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-react-plain colored",
+          "name": "React"
+        },
+        {
+          "class": "devicon-tailwindcss-plain colored",
+          "name": "Tailwind.css"
+        },
+        {
+          "class": "devicon-nodejs-plain-wordmark colored",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-express-original colored",
+          "name": "Express.js"
+        },
+        {
+          "class": "devicon-mongodb-plain colored",
+          "name": "MongoDB"
+        }
+      ]
+    },
+    {
       "title": "AcortarMiURL",
       "startDate": "2022",
       "description": "Así que alguna vez has echado un vistazo a algo y has pensado \"Eso es algo que se puede acortar\".... ¡Y no, no estoy hablando de la deuda estudiantil! (Aunque estoy bastante seguro de que todos deseamos que nuestra deuda simplemente desaparezca) Estoy hablando de enlaces que son tan prolijos sin una razón, ¿por qué debería suceder eso? Así que decidí desarrollar mi propio acortador de URL llamado \"ShortenMyURL\". Creé este sitio web usando EJS, aunque no pude encontrar un icono adecuado para EJS en Devicon, así que decidí poner un icono de manillar como sustituto, ya que ambos hacen lo mismo, excepto que EJS es más preferido, EJS es esencialmente una plantilla constructor que le permite construir HTML con Javascript simple, en este sentido, es muy similar a ReactJS, sin embargo, ReactJS permite que los componentes se hablen entre sí, pero dado que esto es solo un acortador de URL, pensé que usar ReactJS sería excesivo e innecesario . Para las bases de datos, estoy usando MongoDB, una alternativa a SQL que usa NoSQL. En mi opinión, es simple y más fácil de usar, ya que no habrá necesidad de relaciones de datos, que es un aspecto que haría que SQL fuera más preferido si estuviera persiguiendo esto. También usé Express.js para el backend, ya que estamos usando un servidor que puede tomar la entrada de un usuario y almacenarla dentro de nuestra base de datos o cuando el usuario navega a la URL abreviada, luego es conducido a nuestro sitio web por un breve segundo, lo que nuestro sitio web verifica su enlace acortado y ve si existe, luego lo redirige al enlace completo que el usuario proporcionó inicialmente, para que esto funcione, se necesita un servidor y Express facilita la configuración de rutas . En general, el proyecto fue interesante, el mayor desafío fue conseguir que este sitio web fuera alojado. Usualmente uso Netlify y, desafortunadamente, Netlify hace páginas estáticas; sin embargo, tendrá que crear un archivo netlify.toml que pueda ejecutar funciones que luego le permitirían hacer que el sitio web estático imite un servidor. No conseguí que funcionara, así que decidí alojarlo en Heroku, lo cual fue más fácil ya que Heroku está más diseñado para manejar aplicaciones con servidores.",

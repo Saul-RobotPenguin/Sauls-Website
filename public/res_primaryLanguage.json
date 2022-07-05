@@ -18,6 +18,51 @@
   },
   "projects": [
     {
+      "title": "Hypersource",
+      "startDate": "2022",
+      "description": "A MERN Stack App that was built using the MERN Technologies Stack, including MongoDB, Express.js, ReactJS and NodeJS. This project was a year assigned capstone project that was initially built with a team of 5. However throughout the process of the bootcamp, some fellows dropped out and thus, leaving only two. Me and another fellow name Josue. I can say it was due to this project that me and Josue began to build other projects.For this project, we decided to find a way to help bootcamp graduates within the Knowledge House (Cyber Security, Data Science and Web Development) get relevent tech news along with job oppurtunities. Josue was tasked with making the wireframing and understanding how users interact with our website. We wanted this to be a space where anyone can come and read any relevent article depending on their respective cohort but would need an account in order to see any job oppurtunites or share opportunities with others.. We use Gnews Api in order to get top relevent and up to date articles pretaining to these topics, we also made our own Api that talks to our database and oversees creating accounts and logging in accounts along with sharing jobs opportunities. The logging functionality is done with JWT which stands for JSON Web Token. Using that, if the user has logged in then the token is saved as a cookie in the frontend which in turn opens up the job opportunities. Then, when the user is done, they can simply click logout and that's it. Overall, this was fun but we wanted to add more functionalities but due to the sudden disappearance of our group members we were limited in manpower. I think we did great despite this!",
+      "images": [
+        "images/portfolio/Hypersource/hypersource-proj-1.jpg",
+        "images/portfolio/Hypersource/hypersource-proj-2.jpg",
+        "images/portfolio/Hypersource/hypersource-proj-3.jpg",
+        "images/portfolio/Hypersource/hypersource-proj-3.5.jpg",
+        "images/portfolio/Hypersource/hypersource-proj-4.jpg",
+        "images/portfolio/Hypersource/hypersource-proj-5.jpg"
+      ],
+      "url": "https://hypersource.netlify.app/",
+      "github_url": "https://github.com/Saul-RobotPenguin/capstone-project/tree/main",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain colored",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain colored",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-react-plain colored",
+          "name": "React"
+        },
+        {
+          "class": "devicon-tailwindcss-plain colored",
+          "name": "Tailwind.css"
+        },
+        {
+          "class": "devicon-nodejs-plain-wordmark colored",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-express-original colored",
+          "name": "Express.js"
+        },
+        {
+          "class": "devicon-mongodb-plain colored",
+          "name": "MongoDB"
+        }
+      ]
+    },
+    {
       "title": "ShortenMyURL",
       "startDate": "2022",
       "description": "So you have ever taken a look at something and thought \"That's something that can be shortened\"....       And no, I'm not talking about student debt! (Even though I'm pretty sure we all wished our debt just vanished) I'm talking about links that are so wordy without a reason, why should that ever happen??  So I decided to develop my own URL Shortener called \"ShortenMyURL\". I built this website using EJS, although I couldn't find a suitable icon for EJS on Devicon so I decided to put a Handlebars Icon as a substitute since they both do the same thing except EJS is more widely preferred, EJS is essentially a template builder that allows you to build HTML with Plain Javascript, in this regard, it's very similar to ReactJS, however, ReactJS allows for components to speak to each other but since this is just a URL Shortener I thought that using ReactJS would be overkill and unnecessary. For the databases, I'm using MongoDB, an alternative to SQL that uses NoSQL. It's simple and easier to use in my opinion since there won't be a need for data relationships, which is an aspect that would make SQL more preferred if you were pursuing this. I also used Express.js for the backend since we're using a server that can take a users input and store it within our database or when the user navigates to the shortened URL they are then led to our website for a brief second, which our website checks their shorten link and sees if it exists if it does then it redirects it to the full-length link that it was given initially by the user, for this to work, a server is needed and Express makes it easier to set routes. Overall the project was interesting, the major challenge was getting this website to be hosted. I usually use Netlify and unfortunately, Netlify does static pages however you'll have to make a netlify.toml file that can run functions which would then allow you to make the static website imitate a server. Didn't get it to work so I decided to host it on Heroku which was easier since Heroku is more built to handle applications with servers",
